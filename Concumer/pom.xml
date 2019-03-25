@@ -16,6 +16,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- 基础接口模块-->
+        <dependency>
+            <groupId>dubbo</groupId>
+            <artifactId>interface</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
